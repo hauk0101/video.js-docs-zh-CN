@@ -24,6 +24,12 @@
   },
   "homepage": "https://github.com/hauk0101/video.js-docs-zh-CN#readme",
   "dependencies": {
-    "global": "^4.3.2"
+    "global": "^4.3.2",
+    "save": "^2.3.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "run": "^1.4.0",
+    "videojs-generate-karma-config": "^4.0.2"
   }
 }
