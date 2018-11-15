@@ -11,7 +11,7 @@ import window from 'global/window';
  * 
  * @property {string} protocol
  *           
- * @property {string} hostname
+ * @property {string} hostname 
  * 
  * @property {string} port
  * 
