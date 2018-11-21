@@ -73,17 +73,3 @@ export const parseUrl = function (url) {
     return details;
 }
 
-
-export const getAbsoluteURL = function (url) {
-
-}
-
-
-export const getFileExtension = function (path) {
-
-}
-
-
-export const isCrossOrigin = function (url) {
-
-}
