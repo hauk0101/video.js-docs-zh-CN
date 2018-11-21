@@ -4,6 +4,9 @@ import * as Url from '../../../src/js/utils/url.js';
 import { isSymbol } from 'util';
 
 describe('should parse the details of a url correctly:',function(){
+    it('parsed empty url ',function(){
+        expect(Url.parseUrl('').host).toEqual(window.location.host);
+    })
     it('parsed relative url protocol',function(){
         expect(Url.parseUrl('#').protocol).toEqual(window.location.protocol);
     });
