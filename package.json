@@ -1,10 +1,11 @@
 {
   "name": "video.js",
-  "version": "7.3.0",
+  "version": "7.4.1",
   "description": "An HTML5 and Flash video player with a common API and skin for both.",
   "main": "./dist/video.cjs.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:coverage":"jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -27,19 +28,8 @@
     "global": "^4.3.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.6",
-    "@babel/preset-env": "^7.1.6",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.4",
-    "babel-plugin-istanbul": "^5.1.0",
-    "inject-loader": "^4.0.1",
-    "karma": "^3.1.1",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-coverage": "^1.1.2",
-    "karma-html-reporter": "^0.2.7",
-    "karma-ie-launcher": "^1.0.0",
-    "karma-jasmine": "^2.0.1",
-    "karma-webpack": "^3.0.5",
-    "webpack": "^3.0.0"
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "jest": "^24.1.0"
   }
 }
