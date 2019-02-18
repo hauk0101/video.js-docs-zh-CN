@@ -170,6 +170,7 @@ export const isCrossOrigin = function (url) {
     // Check if url is for another domain/origin
     // IE8 doesn't know location.origin, so we won't rely on it here
     const crossOrigin = (srcProtocol + urlInfo.host) !== (winLoc.protocol + winLoc.host);
+   
     return crossOrigin;
 }
 
